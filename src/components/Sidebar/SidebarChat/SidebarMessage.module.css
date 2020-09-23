@@ -1,0 +1,91 @@
+/*Sidebar Create New Chat*/
+.sidebar__createNewChat {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  height: fit-content;
+  min-height: 30px;
+  color: rgba(18, 18, 18, 0.7);
+}
+
+.sidebar__createNewChat__left {
+  flex: 0.9;
+}
+.sidebar__createNewChat__right {
+  flex: 0.1;
+  align-self: stretch;
+}
+
+.addChatIcon {
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.addChatIcon:hover {
+  color: rgba(18, 18, 18, 0.9);
+}
+
+.addChatIcon:active {
+  transform: translateY(3px);
+}
+/*Sidebar Message general settings*/
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarMessage {
+  position: relative;
+  margin: 3% auto;
+  padding: 1%;
+  width: 85%;
+  height: 60px;
+  min-height: 60px;
+  background-color: thistle;
+  border-radius: 21px;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  box-shadow: -1px 4px 20px -6px rgba(255, 255, 255, 0.11);
+  color: rgba(18, 18, 18, 0.7);
+}
+
+.sidebarMessage:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 90%;
+}
+
+.sidebarMessage:active {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 90%;
+}
+/*Sidebar Message left hand side*/
+.sidebarMessage__left {
+  padding: 0 3%;
+  flex: 0.1;
+}
+/*Sidebar Message right hand side*/
+
+.sidebarMessage__right {
+  flex: 0.9;
+}
+
+.sidebarMessage__right > h3 {
+  font-size: medium;
+}
+.sidebarMessage__right > p {
+  font-size: x-small;
+}
+
+/*Delete Chat Room*/
+
+.deleteChatRoom {
+  font-size: small;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.deleteChatRoom:hover {
+  color: coral;
+}

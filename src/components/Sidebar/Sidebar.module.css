@@ -1,0 +1,105 @@
+/* Sidebar general settings*/
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(18, 18, 18, 0.7);
+}
+
+.sidebar {
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  min-width: 10vw;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__bodyOverlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 0 0 30px;
+}
+/* Sidebar Header Settings*/
+
+.sidebar__header {
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 30px 0 0 0px;
+}
+
+.sidebar__headerTop {
+  width: 100%;
+  background-color: none;
+  border-radius: 30px 0 0 0px;
+  flex: 0.6;
+}
+.sidebar__avatarContainer {
+  height: 100%;
+}
+.sidebar__headerAvatar {
+  width: 30%;
+}
+
+.sidebar__headerBottom {
+  width: 100%;
+  background-color: none;
+  flex-direction: column;
+  word-wrap: break-word;
+  flex: 0.4;
+}
+
+.sidebar__headerBottom > h3 {
+  font-size: 110%;
+}
+.sidebar__headerBottom > p {
+  width: 100%;
+  font-size: 80%;
+  word-wrap: break-word;
+  text-align: center;
+}
+/* Sidebar Search Settings*/
+
+.sidebar__search {
+  height: 10%;
+  width: 100%;
+}
+.sidebar__searchContainer {
+  display: flex;
+  width: 85%;
+  border-radius: 21px;
+  padding: 5px;
+  box-shadow: -1px 4px 20px -6px rgba(255, 255, 255, 0.11);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar__searchInput {
+  width: 85%;
+  color: rgba(18, 18, 18, 0.7);
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.sidebar__searchInput::placeholder {
+  color: rgba(18, 18, 18, 0.7);
+}
+
+.sidebar__searchIconContainer {
+  width: 10%;
+}
+
+.sidebar__searchIcon {
+  width: 100%;
+  height: 100%;
+}
+
+/* Sidebar Chat Section Settings*/
+
+.sidebar__message {
+  height: 70%;
+  width: 100%;
+  overflow: scroll;
+}

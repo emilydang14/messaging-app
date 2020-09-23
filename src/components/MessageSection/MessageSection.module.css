@@ -1,0 +1,153 @@
+/*General settings*/
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(18, 18, 18, 0.7);
+}
+
+.messageSection {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 0 30px 30px 0;
+}
+
+/*Header styling*/
+.messageSection__header {
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0 30px 0 0;
+}
+
+.messageSection__headerAvatar {
+  flex: 0.1;
+  padding-left: 5%;
+}
+
+.messageSection_headerPersonInfo {
+  flex: 0.5;
+  padding-left: 2%;
+}
+
+.messageSection_headerPersonInfo > h3 {
+  font-size: 115%;
+}
+.messageSection_headerPersonInfo > p {
+  font-size: 80%;
+}
+
+.messageSection__headerIcons {
+  flex: 0.4;
+  text-align: right;
+  padding-right: 5%;
+}
+
+/*Body styling*/
+.messageSection__body {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 82%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/*---Receiving messages*/
+.messageContent {
+  align-self: flex-start;
+  color: rgba(18, 18, 18, 0.8);
+  position: relative;
+  width: fit-content;
+  max-width: 60%;
+  min-width: 30%;
+  padding: 4%;
+  background-color: #e37b64;
+  opacity: 0.7;
+  margin: 7% 4% 0 4%;
+  border-radius: 21px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+.messagePersonName {
+  position: absolute;
+  top: -15%;
+  left: 2%;
+  font-size: xx-small;
+  font-weight: 700;
+}
+.messageTime {
+  position: absolute;
+  bottom: 5%;
+  right: 8%;
+  font-size: 5px;
+  font-weight: 700;
+}
+/*---Outgoing messages*/
+.messageOutGoing {
+  margin-left: auto;
+  background-color: #e99886;
+}
+
+/*Footer styling*/
+
+.messageSection__footer {
+  height: 8%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0 0 30px 0;
+}
+
+.messageSection__footerInputContainer {
+  height: 100%;
+  flex: 0.8;
+}
+
+.messageSection__footerInput {
+  width: 100%;
+  height: 80%;
+  outline: none;
+  background-color: transparent;
+  flex: 0.8;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 100%;
+  color: rgba(18, 18, 18, 0.6);
+  font-weight: 500;
+}
+.messageSection__footerInput::placeholder {
+  font-size: 100%;
+  color: rgba(18, 18, 18, 0.5);
+  font-weight: 500;
+}
+
+.messageSection__footerButtonContainer {
+  height: 100%;
+  flex: 0.2;
+  padding-right: 2%;
+}
+.messageSection__footerButton {
+  width: 50%;
+  border: none;
+  outline: none;
+  height: 60%;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: ease-in-out 200ms;
+  border-radius: 21px;
+  box-shadow: 5px 5px 10px rgba(18, 18, 18, 0.1);
+  color: rgba(18, 18, 18, 0.7);
+  font-weight: 600;
+  overflow-wrap: break-word;
+}
+
+.messageSection__footerButton:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.messageSection__footerButton:active {
+  box-shadow: none;
+  transform: translateY(3px);
+}
