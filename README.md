@@ -19,7 +19,7 @@ The application was designed and programmed base on the WhatsApp application. It
 
 Demo version online: [Emily's Messaging Web Application](https://whatsapp-clone-83b62.web.app/)
 
-<img src="" width="300">
+<img src="https://github.com/emilydang14/messaging-app/blob/master/demo.gif" width="300">
 
 ## How to start the application on your computer:
 
