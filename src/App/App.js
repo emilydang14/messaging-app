@@ -11,9 +11,6 @@ import MessageSection from "../components/MessageSection/MessageSection";
 import Login from "../components/Login/Login";
 import { useStateValue } from "../StateProvider";
 
-const d = new Date();
-const currentYear = d.getFullYear();
-
 function App() {
   const [{ user }, dispatch] = useStateValue();
 
@@ -40,9 +37,7 @@ function App() {
         </div>
       )}
 
-      <div className={classes.copyright}>
-        Copyright © Emily Dang {currentYear}
-      </div>
+      <div className={classes.copyright}>Copyright © Emily Dang 2020</div>
     </div>
   );
 }
