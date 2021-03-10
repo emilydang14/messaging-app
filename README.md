@@ -7,6 +7,8 @@ For the designing part of this application: The color of the application was mai
 
 The application was designed and programmed base on the WhatsApp application. It is best responsive on screen size: 1024 x 1366px (Ipad Pro screen size). It is not responsive for small screen mobile design. 
 
+Notes: This is the learning project made with the guidance from Youtube
+
 ## Technology used: 
   - React Js: React Hook
   - React Router
